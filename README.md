@@ -37,6 +37,14 @@ Then run `/mcp`, choose soundza and sign in in the browser.
 | `search_packs` / `get_pack` | Themed packs and their sounds |
 | `download_sound` | A link to the full-quality file, a ready `curl` command and the sound's page |
 
+## Claude Code skill
+
+The [soundza skill](skills/soundza/SKILL.md) teaches Claude Code (and other agents that read skills) to list the sounds a project needs, let you pick from previews and wire the files in:
+
+```sh
+npx skills add soundza/soundza-mcp
+```
+
 ## REST API
 
 The same library over HTTP, with a free API key: `https://api.soundza.com/v1`. [Docs](https://soundza.com/developers?utm_source=github&utm_medium=readme) · [OpenAPI](https://soundza.com/openapi.json) · [llms.txt](https://soundza.com/llms.txt)
