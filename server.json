@@ -2,23 +2,24 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.soundza/soundza",
   "title": "Soundza",
-  "description": "Free sound effects, music and ambience for games, videos and apps: search and download.",
+  "description": "Free sound effects, music and ambience for games, videos and apps. Search, play and download.",
   "version": "1.0.0",
   "websiteUrl": "https://soundza.com/developers?utm_source=mcp-registry&utm_medium=directory",
   "repository": { "url": "https://github.com/soundza/soundza-mcp", "source": "github" },
+  "icons": [{ "src": "https://soundza.com/logo-icon.png", "mimeType": "image/png", "sizes": ["512x512"] }],
   "remotes": [
+    { "type": "streamable-http", "url": "https://mcp.soundza.com/mcp/oauth" },
     {
       "type": "streamable-http",
       "url": "https://mcp.soundza.com/mcp",
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer <your Soundza API key>. Free at https://soundza.com/developers/keys",
-          "isRequired": true,
+          "description": "Bearer <your Soundza API key>, free at https://soundza.com/developers/keys. Optional: without it, tools return sign-in steps.",
+          "isRequired": false,
           "isSecret": true
         }
       ]
-    },
-    { "type": "streamable-http", "url": "https://mcp.soundza.com/mcp/oauth" }
+    }
   ]
 }
