@@ -45,8 +45,8 @@ The same library over HTTP, with a free API key: `https://api.soundza.com/v1`. [
 
 [Godot](examples/godot) · [Phaser](examples/phaser) · [Python](examples/python)
 
-## License and credit
+## Free to use
 
-Sounds are free to use in personal and commercial work under the [Soundza Standard License](https://soundza.com/license). We'd love a link back to soundza.com when you share what you make: [how to credit](https://soundza.com/developers#credit). The example code in this repo is MIT licensed.
+Every sound is free to use in personal and commercial projects, with no attribution needed. We'd love a link back to soundza.com when you share what you make: [how to credit](https://soundza.com/developers#credit). The example code in this repo is MIT licensed.
 
 Questions: admin@soundza.com
